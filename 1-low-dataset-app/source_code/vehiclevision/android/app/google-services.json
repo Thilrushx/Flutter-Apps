@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "746860642478",
+    "project_id": "vehiclevision-aed23",
+    "storage_bucket": "vehiclevision-aed23.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746860642478:android:7efacb1fc7ea16406bed3f",
+        "android_client_info": {
+          "package_name": "com.example.vehiclevision"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFNrld2f7qgrMMc-Lv_a2vKeIQxaH9WPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
