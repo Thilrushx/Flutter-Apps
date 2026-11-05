@@ -29,31 +29,6 @@ A Flutter-based vehicle image classification application powered by a **MobileNe
 
 The Android service reads the actual input dimensions from the model tensor. **Maintain the same preprocessing as the training notebook.**
 
-## Required assets and file structure
-
-```text
-project/
-├── assets/
-│   └── models/
-│       ├── best_low_dataset_model.tflite
-│       └── labels.txt
-├── lib/
-│   ├── models/
-│   │   └── prediction_result.dart
-│   └── services/
-│       └── tflite_service.dart
-└── pubspec.yaml
-```
-
-`labels.txt` must contain exactly these lines **in this order**:
-
-```text
-Bus
-Car
-Truck
-motorcycle
-```
-
 Label order matters: it must match the class indices used during training.
 
 ## Setup and installation
